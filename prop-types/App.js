@@ -1,11 +1,12 @@
 import React from "react";
+import Child from "./Child.js";
 
-export default React.createClass({
+export default class App extends React.Component{
 	render() {
 		return (
 			<div>
-				<Child />
+				<Child name={1}/>
 			</div>
 		)
 	}
-})
+}

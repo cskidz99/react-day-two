@@ -18,7 +18,15 @@
   },
   "dependencies": {
     "axios": "^0.8.1",
+    "babel-preset-stage-0": "^6.16.0",
     "react": "^15.4.1",
     "react-dom": "^15.4.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react",
+      "stage-0"
+    ]
   }
 }
